@@ -260,7 +260,7 @@ figure {
 }
 img,
 svg {
-  vertical-align: middle;
+  vertical-align:left;
 }
 table {
   caption-side: bottom;

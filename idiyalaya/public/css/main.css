@@ -2269,6 +2269,102 @@ footer .g-map iframe {
     display: inline-block;
     color: rgba(255, 255, 255, 1);
 }
+/*==========================================================
+/* ===============================================
+    Page-kiruba-Row
+------------------------*/
+.cmt-page-kiruba-row { 
+    background-image: url(../images/slide4\ \(1\).jpg);
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.cmt-page-kiruba-row.cmt-bg.cmt-bgimage-yes > .cmt-titlebar-wrapper-bg-layer{
+    opacity: .01;
+}
+.cmt-page-kiruba-row-inner {
+    position: relative;
+    width: 100%;
+    height: 328px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.41);
+    margin-bottom: 27px;
+}
+.cmt-page-kiruba-row-heading{
+    display: table;
+    width: 100%;
+}
+.page-kiruba-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.page-kiruba-heading h2 {
+    font-family: var(--base-headingfont);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 52px;
+    line-height: 68px;
+    margin-bottom: 9px;
+    color: var(--base-white);
+}
+.page-kiruba-heading .page-kiruba-desc { color: rgba(255,255,255,.60); text-align: center; line-height: 24px;}
+.breadcrumb-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -22px;
+    text-align: center;
+}
+.breadcrumb-wrapper-inner {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: var(--base-skin);
+    position: relative;
+    margin: auto;
+}
+.breadcrumb-wrapper-inner:before {
+    content: '';
+    background: var(--base-dark);
+    height: 3px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+.breadcrumb-wrapper span{
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    color: var(--base-white);
+}
+.breadcrumb-wrapper span:not(:last-child) {
+    padding-right: 16px;
+}
+.breadcrumb-wrapper span:not(:last-child) a{
+    color: var(--base-white);
+    text-transform: capitalize;
+}
+.breadcrumb-wrapper span:not(:last-child):after {
+    position: absolute;
+    content: "  -  ";
+    width: 9px;
+    height: 9px;
+    right: 5px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+}
 
 /*  ===============================================
     Homepage 
